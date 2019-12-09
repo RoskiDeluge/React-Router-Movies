@@ -18,7 +18,7 @@ const App = () => {
       <Route
         path="/movies/:id"
         render={routeProps => {
-          return <Movie {...routeProps} items={savedList} />;
+          return <Movie {...routeProps} movies={savedList} />;
         }}
       />
     </div>
